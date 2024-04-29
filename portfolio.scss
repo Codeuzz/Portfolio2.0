@@ -25,6 +25,31 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+@mixin logo-link-style {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+@mixin zoomEffect {
+    a {
+        text-decoration: none;
+        color: black;
+        .zoomEffect {
+            display: inline-block;
+            position: relative;
+            transition: transform 0.3s ease;
+
+            &:hover {
+            transform: scale(1.3);
+           } 
+        }
+    }
+}
+
+@mixin project-image {
+
+}
 body {
 	line-height: 1;
 }
@@ -44,6 +69,10 @@ table {
 	border-spacing: 0;
 }
 // reset css
+html {
+    scroll-behavior: smooth;
+
+}
 
 body {
     width: 100%;
@@ -51,11 +80,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     header {
-        height: 70px;
+        height: 10vh;
         background-color: rgb(255, 255, 255);
         box-sizing: border-box;
         padding: 10px;
         font-weight: 500;
+        position: fixed;
+        width: 100%;
+        top: 0;
 
         div {
             height: 100%;
@@ -101,11 +133,13 @@ body {
         width: 100%;
         padding: 20px;
         box-sizing: border-box;
+        min-height: 90vh;
+        scroll-margin-top: 10vh;
+        
     }
 
     #menu {
-        margin-top: 30px;
-
+        margin-top: 10vh;
         .menu-container {
             max-width: 1100px;
             margin: 0 auto;
@@ -172,12 +206,11 @@ body {
 
         .tech-stack {
             max-width: 1100px;
-            margin: 0 auto;
+            margin: 80px auto 0;
             display: flex;
             gap: 10px;
             align-items: center;
             justify-content: center;
-            margin-top: 60px;
 
             .stack-logos {
                 font-size: 35px;
@@ -185,6 +218,84 @@ body {
                 display: flex;
                 justify-content: space-evenly;
             }
+        }
+    }
+
+    #a-propos { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        h2 {
+            font-size: 21px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .a-propos-container {
+            margin: 70px auto 0;
+            max-width: 900px;
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+
+            img {
+                width: 380px; 
+                object-fit: contain;
+                border-radius: 50px;
+            }
+
+            .a-propos-text {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 500px;
+                gap: 10px;
+                h3 {
+                    font-size: 21px;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+            
+        }
+    }
+
+    #projets  {
+        background-color: aquamarine;
+        font-size: 20px;
+
+        .projets-container {
+            border: 2px solid red;
+            .projet {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+
+                img {
+                    width: 400px;
+                    border-radius: 20px;
+                }
+
+                .projet-text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .projet-liens {
+                        @include logo-link-style();
+                        @include zoomEffect();
+                        font-size: 20px;
+                    }
+                }
+
+                
+            }
+            
         }
     }
 }  
