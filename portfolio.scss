@@ -26,6 +26,27 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+// reset css
+
+
 @mixin logo-link-style {
     display: flex;
     gap: 20px;
@@ -47,28 +68,18 @@ footer, header, hgroup, menu, nav, section {
     }
 }
 
-@mixin project-image {
+@mixin projet-img {
+    width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
 
+@mixin section-title {
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 20px;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-// reset css
+
 html {
     scroll-behavior: smooth;
 
@@ -228,9 +239,7 @@ body {
         justify-content: flex-start;
 
         h2 {
-            font-size: 21px;
-            font-weight: 600;
-            margin-top: 20px;
+            @include section-title;
         }
 
         .a-propos-container {
@@ -266,25 +275,59 @@ body {
     }
 
     #projets  {
-        background-color: aquamarine;
         font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
 
+        h2 {
+            @include section-title;
+        }
         .projets-container {
-            border: 2px solid red;
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 50px;
+            
             .projet {
                 display: flex;
                 flex-direction: row;
-                gap: 10px;
+                justify-content: center;
+                gap: 15px;
 
                 img {
-                    width: 400px;
-                    border-radius: 20px;
+                    @include projet-img;
                 }
 
                 .projet-text {
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
+                    gap: 10px;
+                    width: 350px; 
+
+                    & > * {
+                        flex: 1;
+                    }
+                  
+                    .projet-text-text {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        h3 {
+                            font-weight: 600;
+                        }
+                        p {
+                            font-size: 19px;
+                        }
+    
+                    }
+
+
+                    .projet-langages {
+                        display: flex;
+                        gap: 20px;
+                        font-size: 28px;
+                    }
 
                     .projet-liens {
                         @include logo-link-style();
@@ -297,6 +340,32 @@ body {
             }
             
         }
+    }
+
+    #contact {
+        height: 20vh;
+        background-color: #000;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+
+        h2 {
+            font-size: 25px;
+        }
+            .liens-pro {
+                @include zoomEffect();
+                display: flex;
+                gap: 20px;
+                font-size: 25px;
+                a {
+                    color: white;
+                }
+                
+            }
     }
 }  
 

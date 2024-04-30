@@ -220,25 +220,58 @@ body #a-propos .a-propos-container .a-propos-text p {
   font-size: 18px;
 }
 body #projets {
-  background-color: aquamarine;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+body #projets h2 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 20px;
 }
 body #projets .projets-container {
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 50px;
 }
 body #projets .projets-container .projet {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 body #projets .projets-container .projet img {
   width: 400px;
-  border-radius: 20px;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 body #projets .projets-container .projet .projet-text {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  width: 350px;
+}
+body #projets .projets-container .projet .projet-text > * {
+  flex: 1;
+}
+body #projets .projets-container .projet .projet-text .projet-text-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body #projets .projets-container .projet .projet-text .projet-text-text h3 {
+  font-weight: 600;
+}
+body #projets .projets-container .projet .projet-text .projet-text-text p {
+  font-size: 19px;
+}
+body #projets .projets-container .projet .projet-text .projet-langages {
+  display: flex;
   gap: 20px;
+  font-size: 28px;
 }
 body #projets .projets-container .projet .projet-text .projet-liens {
   display: flex;
@@ -257,4 +290,38 @@ body #projets .projets-container .projet .projet-text .projet-liens a .zoomEffec
 }
 body #projets .projets-container .projet .projet-text .projet-liens a .zoomEffect:hover {
   transform: scale(1.3);
+}
+body #contact {
+  height: 20vh;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+body #contact h2 {
+  font-size: 25px;
+}
+body #contact .liens-pro {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+body #contact .liens-pro a {
+  text-decoration: none;
+  color: black;
+}
+body #contact .liens-pro a .zoomEffect {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+body #contact .liens-pro a .zoomEffect:hover {
+  transform: scale(1.3);
+}
+body #contact .liens-pro a {
+  color: white;
 }/*# sourceMappingURL=portfolio.css.map */
