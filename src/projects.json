@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Telephone Number Validator",
+        "description": "Ce mini projet permet de vérifier si un numéro de téléphone est conforme à la norme aux Etats Unis. Il m'a permi d'améliorer mes compétences en Javascript",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
+        "code": "https://github.com/Codeuzz/Telephone-number-validator",
+        "preview": "https://codeuzz.github.io/Telephone-number-validator/",
+        "image": "src/images/project phone validator.png"
+    },
+    {
+        "title": "Pokemon Finder",
+        "description": "J'ai appris l'utilisation de l'API fetch à travers ce mini projet. Il permet de trouver un pokémon et de connaître ses statistiques grâce à son son nom our ID.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
+        "code": "https://github.com/Codeuzz/Pokedex",
+        "preview": "https://codeuzz.github.io/Pokedex/",
+        "image": "src/images/project pokedex.png"
+    },
+    {
+        "title": "REACT Todo List",
+        "description": "J'ai pour la première fois mis en pratique mes connaissances en React à travers ce mini projet. Il m'a permi de mieux comprendre le fonctionnement des composants et du transfer de données.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
+        "code": "#",
+        "preview": "#",
+        "image": "src/images/project todoList.png"
+    }
+]
