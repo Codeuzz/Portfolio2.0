@@ -19,8 +19,8 @@
         "title": "REACT Todo List",
         "description": "J'ai pour la première fois mis en pratique mes connaissances en React à travers ce mini projet. Il m'a permi de mieux comprendre le fonctionnement des composants et du transfer de données.",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
-        "code": "#",
-        "preview": "#",
+        "code": "https://github.com/Codeuzz/React-TodoList",
+        "preview": "https://codeuzz.github.io/React-TodoList/",
         "image": "src/images/project todoList.png"
     }
 ]
