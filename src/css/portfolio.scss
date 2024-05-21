@@ -256,6 +256,7 @@ body {
                 display: flex;
                 justify-content: space-evenly;
                 flex-wrap: wrap;
+                gap: 30px;
             }
         }
     }
@@ -415,6 +416,9 @@ body {
         font-size: 22px;
     }
 
+    .stack-logos {
+        gap: 10px;
+    }
     .menu-text {
         text-align: center;
         align-items: center;

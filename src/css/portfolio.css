@@ -201,6 +201,7 @@ body #menu .tech-stack .stack-logos {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 30px;
 }
 body #a-propos {
   display: flex;
@@ -358,6 +359,9 @@ body #contact .liens-pro a {
 @media screen and (max-width: 858px) {
   header {
     font-size: 22px;
+  }
+  .stack-logos {
+    gap: 10px;
   }
   .menu-text {
     text-align: center;
