@@ -16,6 +16,14 @@
         "image": "src/images/project pokedex.png"
     },
     {
+        "title": "Dessinateur",
+        "description": "J'ai appris à utiliser localStorage à travers ce projet permettant de dessiner puis de sauvegarder son dessin.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
+        "code": "https://github.com/Codeuzz/dessin-canvas-Js",
+        "preview": "https://codeuzz.github.io/dessin-canvas-Js/",
+        "image": "src/images/project canvas.png"
+    },
+    {
         "title": "REACT Todo List",
         "description": "J'ai pour la première fois mis en pratique mes connaissances en React à travers ce mini projet. Il m'a permi de mieux comprendre le fonctionnement des composants et du transfer de données.",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
