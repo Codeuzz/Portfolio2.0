@@ -37,6 +37,6 @@
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/markdown-previewer",
         "preview": "https://codeuzz.github.io/markdown-previewer/",
-        "image": "src/images/project markdown-previewer"
+        "image": "src/images/project markdown-previewer.png"
     }
 ]
