@@ -34,7 +34,7 @@
     {
         "title": "Markdown Previewer",
         "description": "Mini projet ayant pour but de solidifier mes compétences en React",
-        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
+        "technologies": ["html5-plain", "sass-original", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/markdown-previewer",
         "preview": "https://codeuzz.github.io/markdown-previewer/",
         "image": "src/images/project markdown-previewer.png"
