@@ -38,5 +38,13 @@
         "code": "https://github.com/Codeuzz/markdown-previewer",
         "preview": "https://codeuzz.github.io/markdown-previewer/",
         "image": "src/images/project markdown-previewer.png"
+    },
+    {
+        "title": "Drum Machine",
+        "description": "Autre projet ayant pour but de solidifier mes compétences en React",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
+        "code": "https://github.com/Codeuzz/drum-machine",
+        "preview": "https://codeuzz.github.io/drum-machine/",
+        "image": "src/images/project drum machine.png"
     }
 ]
