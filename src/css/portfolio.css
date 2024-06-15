@@ -269,6 +269,10 @@ body #projets .projets-container .projet {
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+  box-shadow: 2px 2px 5px black;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 10px;
 }
 body #projets .projets-container .projet img {
   width: 400px;

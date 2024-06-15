@@ -46,5 +46,13 @@
         "code": "https://github.com/Codeuzz/drum-machine",
         "preview": "https://codeuzz.github.io/drum-machine/",
         "image": "src/images/project drum machine.png"
+    },
+    {
+        "title": "Sophie Bluel Homepage",
+        "description": "Je me suis entraînée à transformer un design en code, tout en respectant les données du designer.",
+        "technologies": ["html5-plain", "css3-plain", "sass-original"],
+        "code": "https://github.com/Codeuzz/sophie-bluel",
+        "preview": "https://codeuzz.github.io/sophie-bluel/",
+        "image": "src/images/project sophie-bluel.png"
     }
 ]

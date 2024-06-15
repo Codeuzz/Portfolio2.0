@@ -331,7 +331,11 @@ body {
                 flex-direction: row;
                 justify-content: center;
                 gap: 15px;
-            flex-wrap: wrap;
+                flex-wrap: wrap;
+                box-shadow: 2px 2px 5px black;
+                box-sizing: border-box;
+                padding: 5px;
+                border-radius: 10px;
 
 
                 img {
@@ -412,7 +416,7 @@ body {
 
 
 @media screen and (max-width: 858px) {
-    header {
+    header { 
         font-size: 22px;
     }
 
