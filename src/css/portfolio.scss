@@ -328,6 +328,8 @@ body {
             background-color: rgb(255, 255, 255);
             border: none;
             box-shadow: 0px 2px 3px black;
+            transition: box-shadow 0.2s;
+
 
             &:hover {
                 cursor:pointer;
@@ -346,7 +348,7 @@ body {
             border-radius: 5px ;
             background-color: rgb(255, 255, 255);
             box-shadow: 0px 2px 3px black;
-            transition: transform 0.4s;
+            transition: box-shadow 0.2s;
 
             &:hover {
                 cursor: pointer;
