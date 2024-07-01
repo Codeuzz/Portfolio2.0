@@ -5,7 +5,8 @@
         "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
         "code": "https://github.com/Codeuzz/Telephone-number-validator",
         "preview": "https://codeuzz.github.io/Telephone-number-validator/",
-        "image": "src/images/project phone validator.png"
+        "image": "src/images/project phone validator.png",
+        "type" : "mini-projet" 
     },
     {
         "title": "Pokemon Finder",
@@ -13,7 +14,8 @@
         "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
         "code": "https://github.com/Codeuzz/Pokedex",
         "preview": "https://codeuzz.github.io/Pokedex/",
-        "image": "src/images/project pokedex.png"
+        "image": "src/images/project pokedex.png",
+        "type" : "mini-projet"
     },
     {
         "title": "Dessinateur",
@@ -21,7 +23,8 @@
         "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
         "code": "https://github.com/Codeuzz/dessin-canvas-Js",
         "preview": "https://codeuzz.github.io/dessin-canvas-Js/",
-        "image": "src/images/project canvas.png"
+        "image": "src/images/project canvas.png",
+        "type" : "mini-projet"
     },
     {
         "title": "REACT Todo List",
@@ -29,7 +32,8 @@
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/React-TodoList",
         "preview": "https://codeuzz.github.io/React-TodoList/",
-        "image": "src/images/project todoList.png"
+        "image": "src/images/project todoList.png",
+        "type" : "mini-projet"
     },
     {
         "title": "Markdown Previewer",
@@ -37,7 +41,8 @@
         "technologies": ["html5-plain", "css3-plain", "sass-original", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/markdown-previewer",
         "preview": "https://codeuzz.github.io/markdown-previewer/",
-        "image": "src/images/project markdown-previewer.png"
+        "image": "src/images/project markdown-previewer.png",
+        "type" : "mini-projet"
     },
     {
         "title": "Drum Machine",
@@ -45,7 +50,8 @@
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/drum-machine",
         "preview": "https://codeuzz.github.io/drum-machine/",
-        "image": "src/images/project drum machine.png"
+        "image": "src/images/project drum machine.png",
+        "type" : "mini-projet"
     },
     {
         "title": "Sophie Bluel Homepage",
@@ -53,6 +59,16 @@
         "technologies": ["html5-plain", "css3-plain", "sass-original"],
         "code": "https://github.com/Codeuzz/sophie-bluel",
         "preview": "https://codeuzz.github.io/sophie-bluel/",
-        "image": "src/images/project sophie-bluel.png"
+        "image": "src/images/project sophie-bluel.png",
+        "type" : "website"
+    }, 
+    {
+        "title": "Pomodoro Tracker",
+        "description": "Mini projet me permettant d'approfondir mes connaissances en React.",
+        "technologies": ["html5-plain", "css3-plain", "sass-original", "javascript-plain", "react-original", "vitejs-plain"],
+        "code": "https://github.com/Codeuzz/pomodoro-timer",
+        "preview": "https://codeuzz.github.io/pomodoro-timer/",
+        "image": "src/images/project pomodoro.png",
+        "type" : "mini-projet"
     }
 ]

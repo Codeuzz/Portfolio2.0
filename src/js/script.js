@@ -1,12 +1,14 @@
-document.addEventListener('DOMContentLoaded', () => {
+const fetchData = () => {
     fetch('src/projects.json')
         .then(response => response.json())
-        .then(data => displayProjects(data))
+        .then(data => filterProjects(data))
         .catch(error => console.error('Error fetching the projects:', error));
-});
+}
+
+const projectsContainer = document.querySelector('.projets-container');
 
 function displayProjects(projects) {
-    const projectsContainer = document.querySelector('.projets-container');
+    projectsContainer.innerHTML = ''; // Clear previous projects
     projects.forEach(project => {
         const projectElement = document.createElement('div');
         projectElement.classList.add('projet');
@@ -29,3 +31,20 @@ function displayProjects(projects) {
         projectsContainer.appendChild(projectElement);
     });
 }
+
+function filterProjects(projets) {
+    const select = document.getElementById('project-select');
+    const filteredProjects = projets.filter(projet => projet.type === select.value || select.value === 'tous');
+    displayProjects(filteredProjects);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const selectBtn = document.getElementById('select-btn');
+    selectBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        fetchData();
+    });
+
+    // Initial fetch to display all projects on page load
+    fetchData();
+});
