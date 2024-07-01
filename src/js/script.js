@@ -8,7 +8,7 @@ const fetchData = () => {
 const projectsContainer = document.querySelector('.projets-container');
 
 function displayProjects(projects) {
-    projectsContainer.innerHTML = ''; // Clear previous projects
+    projectsContainer.innerHTML = ''; 
     projects.forEach(project => {
         const projectElement = document.createElement('div');
         projectElement.classList.add('projet');
@@ -45,6 +45,5 @@ document.addEventListener('DOMContentLoaded', () => {
         fetchData();
     });
 
-    // Initial fetch to display all projects on page load
     fetchData();
 });
