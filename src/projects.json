@@ -70,5 +70,14 @@
         "preview": "https://codeuzz.github.io/pomodoro-timer/",
         "image": "src/images/project pomodoro.png",
         "type" : "mini-projet"
+    },   
+    {
+        "title": "D3 Bar chart",
+        "description": "Mini projet pour découvrir D3.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "d3js-plain","vitejs-plain"],
+        "code": "https://github.com/Codeuzz/D3-bar-chart",
+        "preview": "https://codeuzz.github.io/D3-bar-chart/",
+        "image": "src/images/bar-chart.png",
+        "type" : "mini-projet"
     }
 ]
