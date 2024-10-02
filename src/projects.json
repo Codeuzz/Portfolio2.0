@@ -72,7 +72,7 @@
         "type" : "mini-projet"
     },   
     {
-        "title": "SushiCity Site",
+        "title": "SushiCity Website",
         "description": "Ce projet m'a permis de m'entraîner à faire un vrai site. (Pas encore responsif ni fonctionnel)",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original","vitejs-plain"],
         "code": "https://github.com/Codeuzz/sushicitynantes",
