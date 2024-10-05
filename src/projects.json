@@ -1,7 +1,7 @@
 [
     {
         "title": "Telephone Number Validator",
-        "description": "Ce mini projet permet de vérifier si un numéro de téléphone est conforme à la norme aux Etats Unis. Il m'a permi d'améliorer mes compétences en Javascript",
+        "description": "Ce mini projet permet de vérifier si un numéro de téléphone est conforme à la norme aux Etats Unis. Il m'a permi d'améliorer mes compétences en Javascript.",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain"],
         "code": "https://github.com/Codeuzz/Telephone-number-validator",
         "preview": "https://codeuzz.github.io/Telephone-number-validator/",
@@ -37,7 +37,7 @@
     },
     {
         "title": "Markdown Previewer",
-        "description": "Mini projet ayant pour but de solidifier mes compétences en React",
+        "description": "Mini projet ayant pour but de solidifier mes compétences en React.",
         "technologies": ["html5-plain", "css3-plain", "sass-original", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/markdown-previewer",
         "preview": "https://codeuzz.github.io/markdown-previewer/",
@@ -46,7 +46,7 @@
     },
     {
         "title": "Drum Machine",
-        "description": "Autre projet ayant pour but de solidifier mes compétences en React",
+        "description": "Autre projet ayant pour but de solidifier mes compétences en React.",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original", "vitejs-plain"],
         "code": "https://github.com/Codeuzz/drum-machine",
         "preview": "https://codeuzz.github.io/drum-machine/",
@@ -73,7 +73,7 @@
     },   
     {
         "title": "SushiCity Website",
-        "description": "Ce projet m'a permis de m'entraîner à faire un vrai site. (Pas encore responsif ni fonctionnel)",
+        "description": "Ce projet m'a permis de m'entraîner à faire un vrai site. (Pas encore responsif ni fonctionnel).",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "react-original","vitejs-plain"],
         "code": "https://github.com/Codeuzz/sushicitynantes",
         "preview": "https://codeuzz.github.io/sushicitynantes/",
@@ -87,6 +87,15 @@
         "code": "https://github.com/Codeuzz/D3-bar-chart",
         "preview": "https://codeuzz.github.io/D3-bar-chart/",
         "image": "src/images/bar-chart.png",
+        "type" : "mini-projet"
+    },
+    {
+        "title": "D3 Scatterplot",
+        "description": "Mini projet pour m'améliorer en D3.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "d3js-plain","vitejs-plain"],
+        "code": "https://github.com/Codeuzz/D3-scatter-plot",
+        "preview": "https://codeuzz.github.io/D3-scatter-plot/",
+        "image": "src/images/project scatterplot.png",
         "type" : "mini-projet"
     }
 ]
