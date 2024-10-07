@@ -81,7 +81,7 @@
         "type" : "website"
     },
     {
-        "title": "D3 Bar chart",
+        "title": "D3 Bar Chart",
         "description": "Mini projet pour découvrir D3.",
         "technologies": ["html5-plain", "css3-plain", "javascript-plain", "d3js-plain","vitejs-plain"],
         "code": "https://github.com/Codeuzz/D3-bar-chart",
@@ -96,6 +96,15 @@
         "code": "https://github.com/Codeuzz/D3-scatter-plot",
         "preview": "https://codeuzz.github.io/D3-scatter-plot/",
         "image": "src/images/project scatterplot.png",
+        "type" : "mini-projet"
+    },
+    {
+        "title": "D3 Heat Map",
+        "description": "Mini projet pour m'améliorer en D3.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "d3js-plain","vitejs-plain"],
+        "code": "https://github.com/Codeuzz/D3-heat-map",
+        "preview": "https://codeuzz.github.io/D3-heat-map/",
+        "image": "src/images/project heat-map.png",
         "type" : "mini-projet"
     }
 ]
