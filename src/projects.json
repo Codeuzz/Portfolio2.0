@@ -106,5 +106,14 @@
         "preview": "https://codeuzz.github.io/D3-heat-map/",
         "image": "src/images/project heat-map.png",
         "type" : "mini-projet"
+    },
+    {
+        "title": "D3 Choropleth Map",
+        "description": "Mini projet pour m'améliorer en D3.",
+        "technologies": ["html5-plain", "css3-plain", "javascript-plain", "d3js-plain","vitejs-plain"],
+        "code": "https://github.com/Codeuzz/D3-choropleth-map",
+        "preview": "https://codeuzz.github.io/D3-choropleth-map/",
+        "image": "src/images/project choropleth-map.png",
+        "type" : "mini-projet"
     }
 ]
