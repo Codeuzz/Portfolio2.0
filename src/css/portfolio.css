@@ -50,16 +50,17 @@ table {
 
 html {
   scroll-behavior: smooth;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  width: 100vw;
+  margin: 0 auto;
   padding: 0;
 }
 
-body {
+section {
+  width: 100vw;
   margin: 0 auto;
+}
+
+body {
+  margin: 0;
   width: 100%;
   background-color: rgb(248, 248, 248);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -82,17 +83,6 @@ body header div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-body header div .checkbtn {
-  font-size: 30px;
-  line-height: 10vh;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-  float: right;
-}
-body header div #check {
-  display: none;
 }
 body header div nav {
   display: flex;
@@ -143,7 +133,7 @@ body #menu .menu-container {
   flex-wrap: wrap;
 }
 body #menu .menu-container img {
-  width: 300px;
+  max-width: 300px;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   animation-name: blobby;
   animation-duration: 3s;
@@ -294,7 +284,9 @@ body #projets #select-btn:focus {
 body #projets .projets-container {
   display: flex;
   flex-direction: column-reverse;
-  gap: 50px;
+  gap: 50px 0;
+  align-items: center;
+  justify-content: center;
 }
 body #projets .projets-container .projet {
   display: flex;
@@ -427,6 +419,7 @@ body #contact .liens-pro a {
   }
   .projet-text-text {
     align-items: center;
+    text-align: center;
   }
 }
 @media screen and (max-width: 410px) {
@@ -439,9 +432,55 @@ body #contact .liens-pro a {
   .project-img {
     max-width: 90%;
   }
+  html {
+    background-color: red;
+  }
+  #contact h2, #contact .liens-pro {
+    font-size: 20px !important;
+  }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 357px) {
+  html {
+    padding: 0;
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+  header div {
+    font-size: 1rem;
+  }
+  header {
+    width: 100vw !important;
+    box-sizing: border-box;
+  }
+  #menu h1 {
+    font-size: 2rem !important;
+  }
+  #menu p {
+    font-size: 16px !important;
+  }
+  #menu img {
+    max-width: 250px !important;
+  }
+  .a-propos-container {
+    margin-top: 40px !important;
+  }
+  .projets-container {
+    gap: 20px !important;
+  }
+  .projet-langages {
+    font-size: 23px !important;
+  }
   .projet {
-    box-shadow: 0;
+    max-width: 250px;
+    padding: 10px 5px;
+  }
+  .projet-text {
+    max-width: 100%;
+  }
+  .projet-text p {
+    font-size: 16px !important;
+  }
+  .project-img {
+    max-width: 90%;
   }
 }/*# sourceMappingURL=portfolio.css.map */
