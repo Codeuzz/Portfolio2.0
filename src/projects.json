@@ -115,5 +115,14 @@
         "preview": "https://codeuzz.github.io/D3-choropleth-map/",
         "image": "src/images/project choropleth-map.png",
         "type" : "mini-projet"
+    },
+    {
+        "title": "PokeShop",
+        "description": "Mini site pour mettre en application react-redux, BrowserRouter, Axios & Tailwindcss",
+        "technologies": ["react-original", "redux-original","javascript-plain","axios-plain", "tailwindcss-original","vitejs-plain"],
+        "code": "https://github.com/Codeuzz/PokeShop",
+        "preview": "https://codeuzz.github.io/PokeShop",
+        "image": "src/images/project-pokeshop.png",
+        "type" : "website"
     }
 ]
